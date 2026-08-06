@@ -1,5 +1,8 @@
-function savePassword(pwd) {
-  // BUG: Saving as plain text
-  return pwd;
+// TODO: OAuth2 + JWT auth server
+function issueTokens(userId) {
+  return { accessToken: null, refreshToken: null };
 }
-module.exports = savePassword;
+function validateAccessToken(token) {
+  return false;
+}
+module.exports = { issueTokens, validateAccessToken };

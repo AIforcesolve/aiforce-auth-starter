@@ -1,12 +1,10 @@
 {
-  "name": "bcrypt-auth",
+  "name": "aiforce-auth-starter",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "build": "npm install",
-    "test:crypto": "node --test test.js",
     "start": "node index.js",
+    "build": "node -e \"process.exit(0)\"",
     "test:auth": "node --test test.js"
-  },
-  "dependencies": {
-    "bcryptjs": "^2.4.3"
   }
 }
