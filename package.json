@@ -1,0 +1,10 @@
+{
+  "name": "aiforce-auth-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "start",
+    "build": "echo build ok",
+    "test:auth": "node --test test.js"
+  }
+}
